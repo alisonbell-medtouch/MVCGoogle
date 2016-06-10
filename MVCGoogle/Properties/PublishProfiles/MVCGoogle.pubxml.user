@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://local-sitecore8.1.medtouch.com/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ComponentArt.Web.UI.dll">
+      <publishTime>08/03/2015 15:25:56</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>10/03/2015 07:02:48</publishTime>
+    </File>
+    <File Include="bin/ITHit.WebDAV.Server.dll">
+      <publishTime>10/03/2015 07:02:48</publishTime>
+    </File>
+    <File Include="bin/Lucene.Net.dll">
+      <publishTime>10/03/2015 07:02:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AnalysisServices.AdomdClient.dll">
+      <publishTime>04/03/2010 14:55:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/MVCGoogle.dll">
+      <publishTime>06/10/2016 15:07:06</publishTime>
+    </File>
+    <File Include="bin/MVCGoogle.pdb">
+      <publishTime>06/10/2016 15:07:06</publishTime>
+    </File>
+    <File Include="bin/Mvp.Xml.dll">
+      <publishTime>10/03/2015 07:02:54</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/RadEditor.Net2.dll">
+      <publishTime>10/03/2015 07:02:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>10/03/2015 07:03:18</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.Client.dll">
+      <publishTime>10/03/2015 07:03:20</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.dll">
+      <publishTime>10/03/2015 07:03:20</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>10/03/2015 07:03:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.NVelocity.dll">
+      <publishTime>10/03/2015 07:03:26</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Zip.dll">
+      <publishTime>10/03/2015 07:03:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 03:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 03:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>10/03/2015 07:03:58</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/10/2016 14:02:29</publishTime>
+    </File>
+    <File Include="Views/HeaderRendering.cshtml">
+      <publishTime>06/10/2016 14:27:35</publishTime>
+    </File>
+    <File Include="Views/ImageRendering.cshtml">
+      <publishTime>06/10/2016 14:38:55</publishTime>
+    </File>
+    <File Include="Views/layouts/MainLayout.cshtml">
+      <publishTime>06/10/2016 14:10:34</publishTime>
+    </File>
+    <File Include="Views/MainPageHeader.cshtml">
+      <publishTime>06/10/2016 15:22:56</publishTime>
+    </File>
+    <File Include="Views/SearchResultsHeader.cshtml">
+      <publishTime>06/10/2016 15:06:36</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>06/10/2016 14:02:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

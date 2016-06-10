@@ -1,0 +1,9 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@model RenderingModel
+
+<div>
+    @Html.Sitecore().Placeholder("headerimage")
+    <!-- consider using statically bound search box control instead -->
+    @Html.Sitecore().Placeholder("searchbox")
+</div>
