@@ -133,10 +133,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 14:10:34</publishTime>
     </File>
     <File Include="Views/MainPageHeader.cshtml">
-      <publishTime>06/10/2016 15:22:56</publishTime>
+      <publishTime>06/10/2016 16:56:48</publishTime>
     </File>
     <File Include="Views/SearchResultsHeader.cshtml">
-      <publishTime>06/10/2016 15:06:36</publishTime>
+      <publishTime>06/10/2016 16:56:39</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>06/10/2016 14:02:26</publishTime>
