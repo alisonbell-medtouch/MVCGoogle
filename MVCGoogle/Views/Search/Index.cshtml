@@ -1,0 +1,10 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+
+@using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Post))
+{
+    @Html.Sitecore().FormHandler("Search", "Search")
+    @Html.TextBox("query", Request.Params["q"]);
+    @Html.Hidden("dataSource", RenderingContext.Current.Rendering.DataSource)
+    <input type="submit"/>
+}
