@@ -31,10 +31,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2012 15:23:58</publishTime>
     </File>
     <File Include="bin/MVCGoogle.dll">
-      <publishTime>06/13/2016 12:45:38</publishTime>
+      <publishTime>06/13/2016 13:02:56</publishTime>
     </File>
     <File Include="bin/MVCGoogle.pdb">
-      <publishTime>06/13/2016 12:45:38</publishTime>
+      <publishTime>06/13/2016 13:02:56</publishTime>
     </File>
     <File Include="bin/Mvp.Xml.dll">
       <publishTime>10/03/2015 07:02:54</publishTime>
@@ -130,7 +130,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 14:38:55</publishTime>
     </File>
     <File Include="Views/layouts/MainLayout.cshtml">
-      <publishTime>06/10/2016 14:10:34</publishTime>
+      <publishTime>06/13/2016 13:48:49</publishTime>
     </File>
     <File Include="Views/MainPageContent.cshtml">
       <publishTime>06/13/2016 12:03:19</publishTime>
@@ -142,10 +142,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/13/2016 11:52:35</publishTime>
     </File>
     <File Include="Views/SearchResults/Index.cshtml">
-      <publishTime>06/13/2016 12:45:23</publishTime>
+      <publishTime>06/13/2016 12:55:11</publishTime>
     </File>
     <File Include="Views/SearchResultsHeader.cshtml">
-      <publishTime>06/10/2016 16:56:39</publishTime>
+      <publishTime>06/13/2016 13:44:19</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>06/10/2016 14:02:26</publishTime>
