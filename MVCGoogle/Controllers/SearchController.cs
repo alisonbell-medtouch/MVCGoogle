@@ -10,6 +10,7 @@ namespace MVCGoogle.Controllers
     using Sitecore.Links;
     using Sitecore.Mvc.Configuration;
     using Sitecore.Mvc.Presentation;
+    using Sitecore.StringExtensions;
 
     public class SearchController : Controller
     {
@@ -22,7 +23,7 @@ namespace MVCGoogle.Controllers
         }
 
         [HttpPost]
-        public ActionResult Search(String query, String dataSource)
+        public ActionResult Search(string query, string dataSource, string ifl)
         {
             var options = new UrlOptions
             {
@@ -30,9 +31,19 @@ namespace MVCGoogle.Controllers
                 LanguageEmbedding = LanguageEmbedding.Never
             };
 
-            var pathInfo = (LinkManager.GetItemUrl(Sitecore.Context.Database.GetItem(new ID(dataSource)), options));
+            var pathInfo = LinkManager.GetItemUrl(Sitecore.Context.Database.GetItem(new ID(dataSource)), options);
 
-            return RedirectToRoute(MvcSettings.SitecoreRouteName, new { pathInfo = pathInfo.TrimStart(new char[] { '/' }), q = query});
+            object args;
+            if (!ifl.IsNullOrEmpty())
+            {
+                args = new { pathInfo = pathInfo.TrimStart(new char[] { '/' }), q = query, ifl = true };
+            }
+            else
+            {
+                args = new { pathInfo = pathInfo.TrimStart(new char[] { '/' }), q = query };
+            }
+
+            return RedirectToRoute(MvcSettings.SitecoreRouteName, args);
         }
     }
 }

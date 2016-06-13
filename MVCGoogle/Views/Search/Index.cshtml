@@ -6,5 +6,6 @@
     @Html.Sitecore().FormHandler("Search", "Search")
     @Html.TextBox("query", Request.Params["q"]);
     @Html.Hidden("dataSource", RenderingContext.Current.Rendering.DataSource)
-    <input type="submit"/>
+    <input type="submit" value="Search"/>
+    <input type="submit" value="I'm Feeling Lucky" name="ifl"/>
 }

@@ -97,6 +97,8 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\SearchController.cs" />
+    <Compile Include="Controllers\SearchResultsController.cs" />
+    <Compile Include="Models\SearchResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -105,7 +107,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\layouts\MainLayout.cshtml" />
@@ -117,6 +118,7 @@
     <Content Include="Views\SearchResultsHeader.cshtml" />
     <Content Include="Views\Search\Index.cshtml" />
     <Content Include="Views\MainPageContent.cshtml" />
+    <Content Include="Views\SearchResults\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

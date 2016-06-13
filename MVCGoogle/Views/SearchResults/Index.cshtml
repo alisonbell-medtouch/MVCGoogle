@@ -1,0 +1,7 @@
+﻿@using MVCGoogle.Models
+@model List<SearchResult>
+
+@foreach (var result in Model)
+{
+    <li><a href="@result.URL">@result.Title</a></li>
+}
